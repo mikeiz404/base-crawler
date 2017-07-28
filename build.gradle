@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply from: 'publish.gradle'
 
 dependencies {
 	implementation 'com.google.guava:guava:22.0'
